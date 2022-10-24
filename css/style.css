@@ -9,7 +9,22 @@
 *::after {
   box-sizing: border-box;
 }
-
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+}
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+  }
 
 body{
     font-family: roboto,sans-serif;
@@ -22,6 +37,18 @@ ul{
 a{
     text-decoration: none;
 }
+.container{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.pageHeader{
+display: flex;
+align-items: center;
+
+}
+
 .logo{
     font-family: Raleway;
     font-size: 26px;
@@ -30,7 +57,24 @@ a{
 }
 .logo--item{
     color: var(--text-accent);
+
 }
+.pageHeader--nav{
+    margin-left: 93px;
+}
+.pageHeader--item:not(last-child){
+    margin-right: 50px;
+}
+.pageHeader--list{
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 0;
+}
+
+
 .pageHeader--link{
     font-weight: 500;
     font-size: 14px;
@@ -43,6 +87,8 @@ a{
 }
 .pageHeader--connection{
     color: var(--text-secondColor);
+    margin-left: auto;
+    margin-right: 50px;
 }
 .pageHeader--connection:focus,
 .pageHeader--connection:hover{
@@ -82,6 +128,13 @@ a{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.benefits--list{
+    padding: 0;
+    display: flex;
 }
 .benefits--tittle{
     
@@ -94,15 +147,24 @@ a{
     line-height: 1.7;
     color:var(--text-secondColor);
 }
-.activity{
-    
+.activity--tittle{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 36px;
     line-height: 1.16;
 }
+.activity--list{
+    display: flex;
+}
 .team--tittle{
-    
+    text-align: center;
     font-size: 36px;
     line-height: 1.16;
+}
+.team--list{
+    display: flex;
+    padding-left: 0;
 }
 
 .team--name{
