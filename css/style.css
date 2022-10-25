@@ -9,6 +9,7 @@
 *::after {
   box-sizing: border-box;
 }
+
 h1,
 h2,
 h3,
@@ -102,6 +103,7 @@ align-items: center;
     color: var(--text-accent);
 }
 .hero{
+    margin-bottom: 94px;
     background-color:var(--text-secondColor);
 }
 .hero--tittle{
@@ -132,9 +134,20 @@ align-items: center;
     margin-left: auto;
     margin-right: auto;
 }
+.hero--decor{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
+}
+.benefits{
+    margin-bottom: 94px;
+}
 .benefits--list{
     padding: 0;
     display: flex;
+}
+.benefits--item:not(last-child){
+    margin-right: 30px;
 }
 .benefits--tittle{
     
@@ -147,17 +160,34 @@ align-items: center;
     line-height: 1.7;
     color:var(--text-secondColor);
 }
+.activity{
+    margin-bottom: 94px;
+}
 .activity--tittle{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.16;
 }
 .activity--list{
+    padding-left: 0;
     display: flex;
 }
+.activity--item:not(last-child){
+    margin-right: 30px;
+}
+.team{
+    background-color: #F5F4FA;
+padding: 94px;
+width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .team--tittle{
+    margin-bottom: 50px;
     text-align: center;
     font-size: 36px;
     line-height: 1.16;
@@ -165,36 +195,47 @@ align-items: center;
 .team--list{
     display: flex;
     padding-left: 0;
+    margin-bottom: 0;
 }
-
+.team--item:not(last-child){
+    margin-right: 30px;
+}
+.team--photo{
+    margin-bottom: 30px;
+}
 .team--name{
+    margin-bottom: 10px;
+    text-align: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
 }
 .team--player{
-    
+    text-align: center;
     font-size: 16px;
     line-height: 1.18;
     color: var(--text-secondColor);
+    margin-bottom: 0;
 }
-.foot{
-    background-color: #2F303A;;
-}
+
+
 .foot--logo{
     font-family: Raleway,sans-serif;
     font-size: 26px;
     line-height: 1.2;
     color: #fff;
+    margin-bottom: 20px;
+    display: block;
 }
 .foot--text{
+    margin-bottom: 0;
     font-style: inherit;
     font-size: 14px;
     line-height: 1.7;
     color: #fff;
 }
 .foot--connection{
-    
+    display: block;
     font-size: 14px;
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
@@ -213,8 +254,27 @@ align-items: center;
 .foot--tel:focus{
     color: var(--text-accent);
 }
+.foot--decor{
+    background-color: #2F303A;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
+    padding: 60px 215px;
+}
 
 /* портфолио */
+.port{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.port--buttons{
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-bottom: 50px;
+    
+}
+
 .port--button{    
     cursor: pointer;
     background-color: #F5F4FA;
@@ -230,12 +290,17 @@ align-items: center;
     font-size: 16px;
     line-height: 1.62;
     font-family: 'Roboto';
+
+}
+.port--button:not(last-child){
+    margin-right: 8px;
 }
 .port--button:hover,
 .port--button:focus{
     background-color: var(--text-accent);
     color: #fff;
 }
+
 
 
 .port--projects{
@@ -248,4 +313,17 @@ align-items: center;
     font-size: 16px;
     line-height: 1.87;
     color: var(--text-secondColor);
+}
+.port--list{
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+.port--item{
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-basis: calc((100% - 3 * 30px) / 3);
+    background: #ffffff;
 }

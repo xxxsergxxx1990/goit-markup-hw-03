@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GoIt</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body >
+  <body>
     <header class="pageHeader container">
       <a href="./index.html" class="logo">
         <span class="logo--item">Web</span>Studio</a
@@ -32,10 +35,15 @@
       <a class="pageHeader--tel" href="#">+38 096 111 11 11</a>
     </header>
     <main>
-      <section class="hero">
-        <h1 class="hero--tittle">Ефективні рішення для <br> вашого бізнесу</h1>
-        <button class="hero--button" type="button">Замовити послугу</button>
-      </section>
+      <div class="hero--decor">
+        <section class="hero">
+          <h1 class="hero--tittle">
+            Ефективні рішення для <br />
+            вашого бізнесу
+          </h1>
+          <button class="hero--button" type="button">Замовити послугу</button>
+        </section>
+      </div>
       <section class="benefits container">
         <h2 class="visually-hidden">Особливості команди</h2>
         <ul class="benefits--list">
@@ -43,7 +51,8 @@
             <h3 class="benefits--tittle">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="benefits--text">
               Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позиції.
+              формування <br />
+              позиції.
             </p>
           </li>
           <li class="benefits--item">
@@ -63,6 +72,7 @@
             <h3 class="benefits--tittle">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p class="benefits--text">
               Значимість цих проблем настільки очевидна, що реалізація планових
+              <br />
               завдань.
             </p>
           </li>
@@ -82,42 +92,64 @@
           </li>
         </ul>
       </section>
-      <section class="team container">
-        <h2 class="team--tittle">Наша команда</h2>
-        <ul class="team--list">
-          <li class="team--item">
-            <img src="./images/igor.jpg" alt="ігор" width="270" />
-            <h3 class="team--name">Ігор Дем'яненко</h3>
-            <p class="team--player">Product Designer</p>
-          </li>
-          <li class="team--item">
-            <img src="./images/olga.jpg" alt="ольга" width="270" />
-            <h3 class="team--name">Ольга Рєпіна</h3>
-            <p class="team--player">Frontend Developer</p>
-          </li>
-          <li class="team--item">
-            <img src="./images/mikola.jpg" alt="микола" width="270" />
-            <h3 class="team--name">Микола Тарасов</h3>
-            <p class="team--player">Marketing</p>
-          </li>
-          <li class="team--item">
-            <img src="./images/miha.jpg" alt="михайло" width="270" />
-            <h3 class="team--name">Михайло Єрмаков</h3>
-            <p class="team--player">UI Designer</p>
-          </li>
-        </ul>
+
+      <section class="team">
+        <div class="container">
+          <h2 class="team--tittle">Наша команда</h2>
+          <ul class="team--list">
+            <li class="team--item">
+              <img
+                class="team--photo"
+                src="./images/igor.jpg"
+                alt="ігор"
+                width="270"
+              />
+              <h3 class="team--name">Ігор Дем'яненко</h3>
+              <p class="team--player">Product Designer</p>
+            </li>
+            <li class="team--item">
+              <img
+                class="team--photo"
+                src="./images/olga.jpg"
+                alt="ольга"
+                width="270"
+              />
+              <h3 class="team--name">Ольга Рєпіна</h3>
+              <p class="team--player">Frontend Developer</p>
+            </li>
+            <li class="team--item">
+              <img
+                class="team--photo"
+                src="./images/mikola.jpg"
+                alt="микола"
+                width="270"
+              />
+              <h3 class="team--name">Микола Тарасов</h3>
+              <p class="team--player">Marketing</p>
+            </li>
+            <li class="team--item">
+              <img
+                class="team--photo"
+                src="./images/miha.jpg"
+                alt="михайло"
+                width="270"
+              />
+              <h3 class="team--name">Михайло Єрмаков</h3>
+              <p class="team--player">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
-    <footer class="foot">
-      <a href="./index.html" class="foot--logo">
-        <span class="logo--item">Web</span>Studio</a
-      >
-      <address class="foot--text">
-        <p>м. Київ, пр-т Лесі Українки, 26</p>
-      </address>
-      <a class="foot--connection" href="#">info@devstudio.com</a>
-      <a class="foot--tel" href="#">+38 096 111 11 11</a>
-    </footer>
+    <div class="foot--decor">
+      <footer class="foot container">
+        <a href="./index.html" class="foot--logo">
+          <span class="logo--item">Web</span>Studio</a
+        >
+        <address class="foot--text">м. Київ, пр-т Лесі Українки, 26</address>
+        <a class="foot--connection" href="#">info@devstudio.com</a>
+        <a class="foot--tel" href="#">+38 096 111 11 11</a>
+      </footer>
+    </div>
   </body>
 </html>
-
