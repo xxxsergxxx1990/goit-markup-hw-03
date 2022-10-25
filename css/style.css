@@ -320,10 +320,17 @@ width: 1600px;
     flex-wrap: wrap;
     margin-left: -30px;
     margin-top: -30px;
+    margin-bottom: 0;
 }
 .port--item{
     margin-left: 30px;
     margin-top: 30px;
     flex-basis: calc((100% - 3 * 30px) / 3);
     background: #ffffff;
+}
+.port--content{
+    padding: 20px 24px;
+    border: 1px solid #eeeeee;
+    background-color: #ffffff;
+    border-top: none;
 }
