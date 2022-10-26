@@ -173,6 +173,8 @@ align-items: center;
     line-height: 1.16;
 }
 .activity--list{
+    margin-bottom: 0;
+    margin-top: 0;
     padding-left: 0;
     display: flex;
 }
