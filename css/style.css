@@ -62,6 +62,7 @@ align-items: center;
     color: var(--text-accent);
 
 }
+
 .pageHeader--nav{
     margin-left: 93px;
 }
@@ -283,12 +284,14 @@ align-items: center;
 .port{
     padding-top: 94px;
     padding-bottom: 94px;
+    border-top: 1px solid #ECECEC;
 }
 .port--buttons{
     display: flex;
     justify-content: center;
     padding-left: 0;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
+    margin: 0;
     
 }
 
@@ -344,10 +347,11 @@ align-items: center;
     margin-top: 30px;
     flex-basis: calc((100% - 3 * 30px) / 3);
     background: #ffffff;
+    
 }
 .port--content{
     padding: 20px 24px;
-    border: 1px solid #eeeeee;
+    border: 1px solid #EEEEEE;
     background-color: #ffffff;
     border-top: none;
 }
