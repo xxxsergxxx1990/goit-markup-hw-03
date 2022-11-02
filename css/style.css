@@ -49,10 +49,11 @@ a{
     
 }
 /* ----------header---------- */
-.pageHeader{
-display: flex;
-align-items: center;
 
+.pageHeader--decor{
+
+    display: flex;
+    align-items: center;
 }
 
 .logo{
