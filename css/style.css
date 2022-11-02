@@ -63,7 +63,7 @@ align-items: center;
 }
 .logo--item{
     color: var(--text-accent);
-
+   
 }
 
 
@@ -73,14 +73,20 @@ align-items: center;
 .pageHeader--item:not(last-child){
     margin-right: 50px;
 }
+.pageHeader--item{
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+}
+
 .pageHeader--list{
     display: flex;
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 32px;
-    padding-bottom: 32px;
+   
     padding-left: 0;
 }
+
 
 
 .pageHeader--link{
@@ -123,7 +129,7 @@ align-items: center;
 }
 /* ----------hero---------- */
 .hero{
-    max-width: 1600px;
+    
     background: rgba(47, 48, 58, 0.4) url(../images/heroImg.jpg);
     padding-top: 200px;
     padding-bottom: 200px;
@@ -213,8 +219,8 @@ align-items: center;
 /* ----------team---------- */
 .team{
     background-color: #F5F4FA;
-    padding: 94px;
-    width: 1600px;
+    padding-top: 94px;
+    padding-bottom: 94px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -262,7 +268,7 @@ align-items: center;
     background-color: #2F303A;
     margin-left: auto;
     margin-right: auto;
-    width: 1600px; 
+     
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -328,7 +334,7 @@ align-items: center;
     padding-right: 22px;
     padding-top: 6px;
     padding-bottom: 6px;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+   
     border-radius: 4px;
     text-align: center;
     font-weight: 500;
@@ -344,6 +350,7 @@ align-items: center;
 .port--button:focus{
     background-color: var(--text-accent);
     color: #fff;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 
