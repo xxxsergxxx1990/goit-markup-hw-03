@@ -50,7 +50,7 @@ a{
 }
 /* ----------header---------- */
 
-.pageHeader--decor{
+.page-header--decor{
 
     display: flex;
     align-items: center;
@@ -68,19 +68,20 @@ a{
 }
 
 
-.pageHeader--nav{
+.page-header--nav{
     margin-left: 93px;
 }
-.pageHeader--item:not(last-child){
+.page-header--item:not(last-child){
     margin-right: 50px;
 }
-.pageHeader--item{
+.page-header--link{
+    display: block;
     padding-top: 32px;
     padding-bottom: 32px;
 
 }
 
-.pageHeader--list{
+.page-header--list{
     display: flex;
     margin-top: 0;
     margin-bottom: 0;
@@ -90,17 +91,17 @@ a{
 
 
 
-.pageHeader--link{
+.page-header--link{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     color: var(--text-color);
 }
-.pageHeader--link:hover,
-.pageHeader--link:focus{
+.page-header--link:hover,
+.page-header--link:focus{
     color: var(--text-accent);
 }
-.pageHeader--connection{
+.page-header--connection{
     color: var(--text-secondColor);
     margin-left: auto;
     margin-right: 50px;
@@ -111,11 +112,11 @@ a{
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.pageHeader--connection:focus,
-.pageHeader--connection:hover{
+.page-header--connection:focus,
+.page-header--connection:hover{
     color: var(--text-accent);
 }
-.pageHeader--tel{
+.page-header--tel{
     color:  var(--text-secondColor);
     font-family: 'Roboto';
     font-style: normal;
@@ -124,8 +125,8 @@ a{
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.pageHeader--tel:focus,
-.pageHeader--tel:hover{
+.page-header--tel:focus,
+.page-header--tel:hover{
     color: var(--text-accent);
 }
 /* ----------hero---------- */
@@ -177,7 +178,8 @@ a{
     padding-bottom: 94px;
 }
 .benefits--list{
-    
+    margin-top: 0;
+    margin-bottom: 0;
     display: flex;
 }
 .benefits--item:not(last-child){
@@ -189,7 +191,7 @@ a{
     line-height: 1.14;
 }
 .benefits--text{
-    
+    margin-bottom: 0;
     font-size: 14px;
     line-height: 1.7;
     color:var(--text-secondColor);
@@ -237,6 +239,7 @@ a{
     flex-wrap: wrap;
     margin-left: -30px;
     margin-top: -30px;
+    margin-bottom: 0;
   
 }
 .team--item{
